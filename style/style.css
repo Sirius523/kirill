@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+:root{
+    --bg-color: #030355;
+    --text-color: rgb(255, 255, 255);
+    --border-color: #000000;
+}
+
+.body{
+    max-width: 1220px;
+    margin: 0 auto;
+    font-family: 'Noto Sans', sans-serif;
+    background-image: url(/img/river.jpg);
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container{
+    background-color: #030355;
+    color: white;
+    margin-bottom: 50px;
+    border-radius: -100px;
+    text-align: center;
+    padding: 80px;
+}
+
+
+.yslygi{
+    background-color: #030355;
+    color: white;
+    margin-bottom: 50px;
+    border-radius: -100px;
+    text-align: left;
+    padding: 80px;
+}
+
+
+.container-reservation{
+    background-color: #1900ff;
+}
+
+
+
+.navigation-menu{
+    min-height: 130px;
+    border-radius: 0px 0px 100px 100px;
+    font-size: -1.5em;
+    padding: 10px;
+}
+
+.logo{
+    max-width: 50%;
+    max-height: 500%;
+}
+
+.menu{
+    margin-top: 100;
+    padding-top: 0%;
+    max-width: 300%;
+    margin: auto;
+}
+
+.menu-item{
+    margin-right: 6%;
+}
+
+.input-text{
+    border-radius: 150px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 10px;
+    outline: none;  
+    border-style: none;
+}
+
+.button{
+    border: none;
+    font-size: 0.9em;
+    font-family: inherit;
+    border-radius: 40px;
+    margin-left: 10px;
+    padding: 50px;
+    color: #000000;
+}
+
+.discrub{
+    min-height: 400px;
+
+}
+
+.discrib-title{
+    text-align: start;
+    margin-left: 1em;
+    margin-bottom: 2em;
+}
+
+.discrub-text{
+    text-align: center;
+    margin-right: 10em;
+    max-width: 35%;
+    background: var(--text-color);
+    border-radius: 10%;
+    padding: 50px 50px;
+    color: var(--border-color);
+    font-size: 19px;
+}
+
+.block{
+    display: flex;
+}
+
+.discrub-image{
+    align-items: end;
+    max-width: 50%;
+    border-radius: 50px;
+    max-height: 412px;
+    padding-top: 1em;
+}
+
+.reviews-item{
+    display: flex;
+    padding-left: 80px;
+}
+
+.reviews-item-text{
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    max-width: 35%;
+    min-width: 35%;
+    min-height: 40px;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+.reviews-item-name{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+
+
+
+
+.reviews{
+    padding-bottom: 2em;
+}
+
+.reservation{
+    background-color: var(--text-color);
+    border: 0.5em solid var(--border-color);
+    color: var(--bg-color);
+    min-height: 20em;
+}
+
+.figure{
+    margin-top: 10%;
+}
+
+.text{
+    margin-left: -2em;
+    margin-right: 3em;
+}
+
+i{
+    border: solid var(--border-color);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+
+.list-find{
+    text-align: start;
+    padding-left: 10px;
+
+}
+
+.list-find-item{
+    padding-left: 3em;
+    max-width: 400px;
+    
+}
+
+.find{
+    color: var(--border-color);
+}
+
+
+.button-find{
+    margin-top: 2em;
+    min-height: 100px;
+    min-width: 100px;
+    background-color: var(--text-color);
+}
+
+.img{
+    max-width: 500px;
+    min-width: 500px;
+    max-height: 280px;
+    border-radius: 10px;
+}
+
+.slider-item{
+    margin-top: 2em;
+    display: flex;
+    gap: 2em;
+}
+
+.text-slider{
+    text-align: center;
+}
+.footer{
+    background: #030355;
+    color: rgb(255, 255, 255);
+    border-radius: -50px;
+  
+    
+}
+.list-nav{
+    display: inline-block;
+}
